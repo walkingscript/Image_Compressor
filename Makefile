@@ -9,7 +9,3 @@ dependencies:
 
 compile:
 	pyinstaller -F src\main.py -n ${BINARY_NAME} --clean --noconsole
-
-all:
-	dependencies
-	compile
